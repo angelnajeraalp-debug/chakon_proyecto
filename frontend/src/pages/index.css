@@ -1,0 +1,12 @@
+:root {
+  --bg: #0f172a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: var(--bg);
+  background-image: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+  color: white;
+}
