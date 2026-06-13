@@ -1,6 +1,5 @@
 // backend/server.js
 import crypto from 'crypto';       // <-- 1. Agregado
-global.crypto = crypto;            // <-- 2. Agregado
 
 import express from 'express';
 import cors from 'cors';
